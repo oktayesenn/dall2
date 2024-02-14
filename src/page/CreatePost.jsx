@@ -90,7 +90,11 @@ const CreatePost = () => {
             labelName="Your Name"
             type="text"
             name="name"
+<<<<<<< HEAD
             placeholder="Ex., sam altman"
+=======
+            placeholder="Ex., john doe"
+>>>>>>> 1b355782482ab970f53ec7971ac6282a1b00d9d2
             value={form.name}
             handleChange={handleChange}
           />
@@ -133,7 +137,11 @@ const CreatePost = () => {
           <button
             type="button"
             onClick={generateImage}
+<<<<<<< HEAD
             className=" text-white bg-[#000000] font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+=======
+            className=" text-white bg-green-700 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+>>>>>>> 1b355782482ab970f53ec7971ac6282a1b00d9d2
           >
             {generatingImg ? 'Generating...' : 'Generate'}
           </button>
@@ -143,7 +151,11 @@ const CreatePost = () => {
           <p className="mt-2 text-[#666e75] text-[14px]">** Once you have created the image you want, you can share it with others in the community **</p>
           <button
             type="submit"
+<<<<<<< HEAD
             className="mt-3 text-white bg-[#000000] font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+=======
+            className="mt-3 text-white bg-[#6469ff] font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+>>>>>>> 1b355782482ab970f53ec7971ac6282a1b00d9d2
           >
             {loading ? 'Sharing...' : 'Share with the Community'}
           </button>
